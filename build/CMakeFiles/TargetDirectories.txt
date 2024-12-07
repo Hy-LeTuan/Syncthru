@@ -1,0 +1,3 @@
+/home/hyle/Documents/code/Syncthru/build/CMakeFiles/SyncThru.dir
+/home/hyle/Documents/code/Syncthru/build/CMakeFiles/edit_cache.dir
+/home/hyle/Documents/code/Syncthru/build/CMakeFiles/rebuild_cache.dir

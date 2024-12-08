@@ -9,4 +9,4 @@ set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
 # Add executables
-add_executable(SyncThru ./src/main.c)
+add_executable(SyncThru ./src/server/main.c)

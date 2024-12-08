@@ -1,6 +1,6 @@
-CMakeFiles/SyncThru.dir/src/main.c.o: \
- /home/hyle/Documents/code/Syncthru/src/main.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/SyncThru.dir/src/server/main.c.o: \
+ /home/hyle/Documents/code/Syncthru/src/server/main.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

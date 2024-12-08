@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hyle/Documents/code/Syncthru/src/main.c" "CMakeFiles/SyncThru.dir/src/main.c.o" "gcc" "CMakeFiles/SyncThru.dir/src/main.c.o.d"
+  "/home/hyle/Documents/code/Syncthru/src/server/main.c" "CMakeFiles/SyncThru.dir/src/server/main.c.o" "gcc" "CMakeFiles/SyncThru.dir/src/server/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/hyle/Documents/code/Syncthru/build",
-  "command": "/usr/bin/cc   -std=gnu2x -o CMakeFiles/SyncThru.dir/src/main.c.o -c /home/hyle/Documents/code/Syncthru/src/main.c",
-  "file": "/home/hyle/Documents/code/Syncthru/src/main.c",
-  "output": "CMakeFiles/SyncThru.dir/src/main.c.o"
+  "command": "/usr/bin/gcc   -g -std=gnu2x -o CMakeFiles/SyncThru.dir/src/server/main.c.o -c /home/hyle/Documents/code/Syncthru/src/server/main.c",
+  "file": "/home/hyle/Documents/code/Syncthru/src/server/main.c",
+  "output": "CMakeFiles/SyncThru.dir/src/server/main.c.o"
 }
 ]

@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SyncThru::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SyncThru-2185a65c2ae017a2508a.json",
+					"jsonFile" : "target-SyncThru-Debug-da4c26146de1888bbbe7.json",
 					"name" : "SyncThru",
 					"projectIndex" : 0
 				}

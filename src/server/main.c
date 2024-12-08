@@ -17,7 +17,7 @@ int main() {
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_flags = AI_PASSIVE;
 
-    status = getaddrinfo("google.com", "443", &hints, &servinfo);
+    status = getaddrinfo(NULL, "443", &hints, &servinfo);
 
     if (status == 0) {
         printf("protocol: %d\n", servinfo->ai_family);

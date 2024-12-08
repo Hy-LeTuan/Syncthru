@@ -129,29 +129,29 @@ SyncThru/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/build
 .PHONY : SyncThru/fast
 
-src/main.o: src/main.c.o
-.PHONY : src/main.o
+src/server/main.o: src/server/main.c.o
+.PHONY : src/server/main.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/server/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/server/main.c.o
+.PHONY : src/server/main.c.o
 
-src/main.i: src/main.c.i
-.PHONY : src/main.i
+src/server/main.i: src/server/main.c.i
+.PHONY : src/server/main.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/server/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/server/main.c.i
+.PHONY : src/server/main.c.i
 
-src/main.s: src/main.c.s
-.PHONY : src/main.s
+src/server/main.s: src/server/main.c.s
+.PHONY : src/server/main.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/server/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SyncThru.dir/build.make CMakeFiles/SyncThru.dir/src/server/main.c.s
+.PHONY : src/server/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SyncThru"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/server/main.o"
+	@echo "... src/server/main.i"
+	@echo "... src/server/main.s"
 .PHONY : help
 
 

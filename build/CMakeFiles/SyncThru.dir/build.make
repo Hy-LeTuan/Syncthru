@@ -69,28 +69,28 @@ include CMakeFiles/SyncThru.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SyncThru.dir/flags.make
 
-CMakeFiles/SyncThru.dir/src/main.c.o: CMakeFiles/SyncThru.dir/flags.make
-CMakeFiles/SyncThru.dir/src/main.c.o: /home/hyle/Documents/code/Syncthru/src/main.c
-CMakeFiles/SyncThru.dir/src/main.c.o: CMakeFiles/SyncThru.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hyle/Documents/code/Syncthru/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SyncThru.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SyncThru.dir/src/main.c.o -MF CMakeFiles/SyncThru.dir/src/main.c.o.d -o CMakeFiles/SyncThru.dir/src/main.c.o -c /home/hyle/Documents/code/Syncthru/src/main.c
+CMakeFiles/SyncThru.dir/src/server/main.c.o: CMakeFiles/SyncThru.dir/flags.make
+CMakeFiles/SyncThru.dir/src/server/main.c.o: /home/hyle/Documents/code/Syncthru/src/server/main.c
+CMakeFiles/SyncThru.dir/src/server/main.c.o: CMakeFiles/SyncThru.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hyle/Documents/code/Syncthru/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SyncThru.dir/src/server/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SyncThru.dir/src/server/main.c.o -MF CMakeFiles/SyncThru.dir/src/server/main.c.o.d -o CMakeFiles/SyncThru.dir/src/server/main.c.o -c /home/hyle/Documents/code/Syncthru/src/server/main.c
 
-CMakeFiles/SyncThru.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SyncThru.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hyle/Documents/code/Syncthru/src/main.c > CMakeFiles/SyncThru.dir/src/main.c.i
+CMakeFiles/SyncThru.dir/src/server/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SyncThru.dir/src/server/main.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hyle/Documents/code/Syncthru/src/server/main.c > CMakeFiles/SyncThru.dir/src/server/main.c.i
 
-CMakeFiles/SyncThru.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SyncThru.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hyle/Documents/code/Syncthru/src/main.c -o CMakeFiles/SyncThru.dir/src/main.c.s
+CMakeFiles/SyncThru.dir/src/server/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SyncThru.dir/src/server/main.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hyle/Documents/code/Syncthru/src/server/main.c -o CMakeFiles/SyncThru.dir/src/server/main.c.s
 
 # Object files for target SyncThru
 SyncThru_OBJECTS = \
-"CMakeFiles/SyncThru.dir/src/main.c.o"
+"CMakeFiles/SyncThru.dir/src/server/main.c.o"
 
 # External object files for target SyncThru
 SyncThru_EXTERNAL_OBJECTS =
 
-SyncThru: CMakeFiles/SyncThru.dir/src/main.c.o
+SyncThru: CMakeFiles/SyncThru.dir/src/server/main.c.o
 SyncThru: CMakeFiles/SyncThru.dir/build.make
 SyncThru: CMakeFiles/SyncThru.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hyle/Documents/code/Syncthru/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable SyncThru"

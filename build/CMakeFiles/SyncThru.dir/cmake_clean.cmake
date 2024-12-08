@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SyncThru.dir/src/main.c.o"
-  "CMakeFiles/SyncThru.dir/src/main.c.o.d"
+  "CMakeFiles/SyncThru.dir/src/server/main.c.o"
+  "CMakeFiles/SyncThru.dir/src/server/main.c.o.d"
   "SyncThru"
   "SyncThru.pdb"
 )

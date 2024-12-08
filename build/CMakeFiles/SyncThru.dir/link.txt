@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/SyncThru.dir/src/main.c.o -o SyncThru 
+/usr/bin/gcc -g CMakeFiles/SyncThru.dir/src/server/main.c.o -o SyncThru 
